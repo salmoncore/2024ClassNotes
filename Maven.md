@@ -6,3 +6,5 @@
 ## Topics
 
 - [JUNIT Annotations](./JUNITAnnotations.md)
+
+- [JUNIT Assertions](./JUNITAssertions.md)
