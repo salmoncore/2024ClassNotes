@@ -400,6 +400,8 @@ Where table A relates to one or more rows in table B, and vice-versa
 E.g. An Author table and a Books table, both with distinct primary keys, relying on a Junction table to link the values together
 
 ## DDL AND DML
+[Main topic](./DataDefinitionLanguage.md)
+
 DDL -- Stands for Data Definition Language
 SQL commands that are used to create, drop, and modify database objects
 Not the data itself, but where it sits
@@ -407,6 +409,9 @@ CREATE - Creates a table
 ALTER - Modified the structure of an existing table
 DROP - Deletes a table and all of its data
 TRUNCATE - Removes all the data from its table, but keeps the table
+
+[Main topic](./DataManipulationLanguage.md)
+
 DML -- Stands for Data Manipulation Language
 SQL commands that are used to add, delete, and edit data in your tables
 INSERT - Adds new data into your tables

@@ -11,3 +11,5 @@
 - [SQL Data Types](./SQLDataTypes.md)
 - [SQL Functions](./SQLFunctions.md)
 - [SQL Joins](./SQLJoins.md)
+- [Data Definition Language (DDL)](./DataDefinitionLanguage.md)
+- [Data Manipulation Language (DML)](./DataManipulationLanguage.md)
