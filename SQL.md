@@ -8,3 +8,4 @@
 
 ## Topics
 - [Normalization](./Normalization.md)
+- [SQL Data Types](./SQLDataTypes.md)
