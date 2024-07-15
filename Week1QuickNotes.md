@@ -55,6 +55,8 @@ Determines if two objects of this class are "equivalent"
 Objects are equivelant if they refer to the same place in memory, or all values within the objects are equal
 
 ## ARRAYS
+[Main topic](./Arrays.md)
+
 Stores data in consecutive memory addresses
 Access data via indices
 Index starts at 0
@@ -80,6 +82,8 @@ Java gives you wrappers for the primitive types
 e.g. int -> Integer, double -> Double, etc.
 
 ## ARRAY LISTS
+[Main topic](./ArraysList.md)
+
 Dynamic array, grows as you add more data to it
 Doesn't shrink dynamically
 Use trimToSize() method

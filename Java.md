@@ -8,6 +8,7 @@
 ## Topics
 
 - [Arrays](./Arrays.md)
+- [ArraysList](./ArraysList.md)
 
 ## Classes & Interfaces
 
