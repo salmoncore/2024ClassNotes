@@ -7,6 +7,8 @@
 
 ## Topics
 
+- [Arrays](./Arrays.md)
+
 ## Classes & Interfaces
 
 ## Resources
