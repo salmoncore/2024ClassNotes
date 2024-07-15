@@ -3,15 +3,21 @@
 # SQL
 
 ## Contents
+- [Get Started](#get-started)
 - [Topics](#topics)
+    - [SQL](#sql-1)
 
 ## Get Started
 - [Postgres Installation](./PostGresInstallation.md)
 
 ## Topics
+
 - [Normalization](./Normalization.md)
-- [SQL Data Types](./SQLDataTypes.md)
-- [SQL Functions](./SQLFunctions.md)
-- [SQL Joins](./SQLJoins.md)
 - [Data Definition Language (DDL)](./DataDefinitionLanguage.md)
 - [Data Manipulation Language (DML)](./DataManipulationLanguage.md)
+
+### SQL
+- [Data Types](./SQLDataTypes.md)
+- [Functions](./SQLFunctions.md)
+- [Joins](./SQLJoins.md)
+- [Keys](./SQLKeys.md)

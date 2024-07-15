@@ -5,13 +5,14 @@
 ## Contents
 - [Topics](#topics)
 - [Classes & Interfaces](#classes--interfaces)
-- [Multi-Threading](./MultiThreading.md)
 - [Resources](#resources)
 
 ## Topics
 
 - [Arrays](./Arrays.md)
 - [ArraysList](./ArraysList.md)
+- [Iterators](./Iterators.md)
+- [Multi-Threading](./MultiThreading.md)
 
 ## Classes & Interfaces
 
