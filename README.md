@@ -1,5 +1,6 @@
 - [Quick Notes](#quick-notes)
 - [Topics](#topics)
+- [Contributions](#contributions)
 
 ## Quick Notes
 
@@ -14,6 +15,7 @@
 - [SQL and Databases](./SQL.md)
 
 ## Contributions
+See the original post in Discord to see who to contact to get added. Be sure to include your github username when you do so.
 - [Template for new documents](./newFileTemplate.md)
 - [Markdown Cheatsheet ↗️](https://www.markdownguide.org/cheat-sheet/)
 
