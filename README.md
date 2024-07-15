@@ -1,10 +1,13 @@
+# README
+
+## Contents
 - [Quick Notes](#quick-notes)
 - [Topics](#topics)
 - [Contributions](#contributions)
 
-## Quick Notes
+## Study Notes
 
-- [Week 1](./Week1QuickNotes.md)
+- [Week 1](./Week1StudyNotes.md)
 
 ## Topics
 

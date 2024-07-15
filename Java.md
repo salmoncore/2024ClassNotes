@@ -1,6 +1,8 @@
 << [README](./README.md)
 
-# Contents
+# Java
+
+## Contents
 - [Topics](#topics)
 - [Classes & Interfaces](#classes--interfaces)
 - [Multi-Threading](./MultiThreading.md)

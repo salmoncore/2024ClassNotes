@@ -1,6 +1,8 @@
 << [README](./README.md)
 
-# Contents
+# Data Manipulation Language
+
+## Contents
 - [Abbreviation](#abbreviation)
 - [Commands](#commands)
 

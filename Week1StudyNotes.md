@@ -1,5 +1,7 @@
 << [README](./README.md)
 
+# Week 1 Study Notes
+
 ## Contents
 - [hashCode()](#hashcode)
 - [equals()](#equals)

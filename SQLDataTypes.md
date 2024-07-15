@@ -1,6 +1,7 @@
 << [README](./README.md)
+# SQL Data Types
 
-# Contents
+## Contents
 - [SQL Data Types](#sql-data-types)
 
 ## SQL Data Types

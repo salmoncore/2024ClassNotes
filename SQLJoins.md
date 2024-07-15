@@ -1,6 +1,8 @@
 << [README](./README.md)
 
-# Contents
+# SQL Joins
+
+## Contents
 - [Joins](#joins)
 
 ## JOINS

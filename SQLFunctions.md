@@ -1,6 +1,8 @@
 << [README](./README.md)
 
-# Contents
+# SQL Functions
+
+## Contents
 - [Basic Functions](#basic-functions)
 
 ## Basic Functions

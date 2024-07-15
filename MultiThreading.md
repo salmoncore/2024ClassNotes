@@ -1,11 +1,13 @@
 << [README](./README.md)
 
-# Contents
-- [Multi-Threading](#multi-threading)
+# Multi-threading
+
+## Contents
+- [Overview](#overview)
 - [Thread States](#thread-states)
 - [Runnable Interface](#runnable-interface)
 
-## MULTI-THREADING
+## Overview
 - Splits different tasks across different threads to be done concurrently
 - By default, Java apps run Main on one thread
 - Performance is increased when using multithreading, at the cost of more power usage

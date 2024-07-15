@@ -1,6 +1,8 @@
 << [README](./README.md)
 
-# Contents
+# Data Definition Language (DDL)
+
+## Contents
 - [Abbreviation](#abbreviation)
 - [Commands](#commands)
 

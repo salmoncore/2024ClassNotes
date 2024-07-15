@@ -1,6 +1,8 @@
 << [README](./README.md)
 
-# Contents
+# JUNIT Annotations
+
+## Contents
 - [Annotations](#annotations)
     - [BeforeClass and Before](#beforeclass-and-before) 
     - [@BeforeClass](#-beforeclass)

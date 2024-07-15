@@ -1,6 +1,8 @@
 << [README](./README.md)
 
-# Contents
+JUNIT Annotations
+
+## Contents
 - [Overview](#overview)
 - [Assertions](#assertions)
 - [Resources](#resources)

@@ -1,6 +1,8 @@
 << [README](./README.md)
 
-# Contents
+# Normalization
+
+## Contents
 - [Overview](#overview)
 - [1st Normal Form](#1st-normal-form)
 - [2nd Normal Form](#2nd-normal-form)

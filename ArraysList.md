@@ -1,6 +1,8 @@
 << [README](./README.md)
 
-# Contents
+# ArraysLists
+
+## Contents
 - [Overview](#overview)
 - [See Also](#see-also)
 

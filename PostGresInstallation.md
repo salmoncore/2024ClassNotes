@@ -1,6 +1,8 @@
 << [README](./README.md)
 
-# Contents
+# Postgres Installation
+
+## Contents
 - [Windows Install](#windows-install)
 - [Mac Install ](#mac-install)
 - [Windows Disable](#windows-disable)
