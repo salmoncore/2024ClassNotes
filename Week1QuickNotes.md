@@ -321,6 +321,8 @@ Must be in second normal form
 No transitive dependencies
 
 ## SQL DATA TYPES
+[Main topic](./SQLDataTypes.md)
+
 SERIAL - Auto-incrementing integer data, often used for primary keys.
 CHAR - A fixed-length character
 VARCHAR - A variable-length character string
@@ -336,12 +338,17 @@ TIME - Stores a formatted time
 TIMESTAMP - Stores formatted date and time
 
 ## SQL BASIC FUNCTIONS
+[Main topic](./SQLFunctions.md)
+
 SELECT - Specifies a column to retrieve data from in a database
 FROM - Specifies the table to retrieve data from in a database
 ORDER BY - Sorts the result based on a column
 WHERE - Used to filter records based on a condition, e.g. WHERE condition
 AND - Used in conjunction with WHERE to have multiple filters
 AS - Gives a column or table a temporary alias
+
+[Main topic](./SQLJoins.md)
+
 JOINS
 INNER JOIN - Returns records with matching values in both tables
 LEFT JOIN - Returns records from your left table and any matching records from the right table

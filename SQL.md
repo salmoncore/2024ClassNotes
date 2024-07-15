@@ -9,3 +9,5 @@
 ## Topics
 - [Normalization](./Normalization.md)
 - [SQL Data Types](./SQLDataTypes.md)
+- [SQL Functions](./SQLFunctions.md)
+- [SQL Joins](./SQLJoins.md)
