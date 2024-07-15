@@ -1,6 +1,8 @@
 << [README](./README.md)
 
-# Contents
+# Arrays
+
+## Contents
 - [Overview](#overview)
 - [Initialize](#initialize)
     - [With Data](#with-data)
