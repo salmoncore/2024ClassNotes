@@ -2,13 +2,21 @@
 
 # Spring and SpringBoot
 
-### Exam Prep Material
+**Contents**
+- [Spring and SpringBoot](#spring-and-springboot)
+	- [Exam Prep Material](#exam-prep-material)
+	- [Java 17 Installation](#java-17-installation)
+- [Spring Overview](#spring-overview)
+	- [SpringBoot Overview](#springboot-overview)
+	- [SpringBoot Project Example](#springboot-project-example)
+- [Comment/Code Notes](#commentcode-notes)
+
+## Exam Prep Material
 [https://education.oracle.com/product/pexam_1Z0-811](https://education.oracle.com/product/pexam_1Z0-811 "https://education.oracle.com/product/pexam_1Z0-811")
 
 [https://webets-server-aws.enthuware.com/webets.html](https://webets-server-aws.enthuware.com/webets.html "https://webets-server-aws.enthuware.com/webets.html") 
 
----
-### Java 17 Installation
+## Java 17 Installation
 
 https://www.oracle.com/java/technologies/downloads/#java17
 
@@ -19,9 +27,7 @@ Add `C:\Program Files\Java\jdk-17\bin` to your PATH, removing the older Java ent
 
 Verify installation with `java -version`
 
----
-
-## Spring Overview
+# Spring Overview
 
 - Dependency injection
 	- Where Spring will manage dependencies for us!
@@ -65,8 +71,6 @@ Important Buzzwords:
 		 - Pre-configured project templates, made publicly available.
  - Annotations
 	 - `@SpringBootApplications`
-
----
 
 ## SpringBoot Project Example
 
@@ -128,7 +132,7 @@ Also note:
  - `@ComponentScan` - Searches your package for any class annotated with `@Component`, and makes beans for them.
  - `@EnableAutoConfiguration` - Tells SpringBoot to auto-configure the app context with things we need, like a server or a web app.
 
-## Code Notes
+# Comment/Code Notes
 
 **Application Context**
  - Starts up your IOC container
