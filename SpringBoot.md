@@ -21,7 +21,7 @@ Verify installation with `java -version`
 
 ---
 
-## Spring
+## Spring Overview
 
 - Dependency injection
 	- Where Spring will manage dependencies for us!
@@ -55,7 +55,7 @@ IOC
 	 - Including all of the beans we create
  - Includes Application Context
 
-## SpringBoot
+## SpringBoot Overview
 *(not spring)*
 
 Important Buzzwords:
@@ -68,7 +68,7 @@ Important Buzzwords:
 
 ---
 
-### SpringBoot Project Example
+## SpringBoot Project Example
 
 - Make a new folder in VS Code
 - Hit `ctrl + shift + p` to open the command palate
@@ -122,3 +122,69 @@ server:
 Also note:
  - **The default port number is 8080!**
  - These changes are not necessary for our project -- we just want to show it *can* be done.
+
+`@SpringBootApplication` is a combo of three annotations:
+ - `@Configuration` - Specifies that a class will be a configuration class -- more specifically, this will be a class that has beans that Spring needs to manage.
+ - `@ComponentScan` - Searches your package for any class annotated with `@Component`, and makes beans for them.
+ - `@EnableAutoConfiguration` - Tells SpringBoot to auto-configure the app context with things we need, like a server or a web app.
+
+## Code Notes
+
+**Application Context**
+ - Starts up your IOC container
+ - "Where your beans live"
+
+**Command Line Runner**
+ - Method that runs AFTER the app context is loaded 
+ - Usually used to perform some setup for an application - like loading data
+ - Functional interface
+   - Could be implemented by a lambda!
+
+**`@Bean` Annotation**
+ - Registers the bean inside the BeanFactory
+ - This way, Spring can give you beans when you ask for them
+ - Example:
+```
+@Bean (name = {"mustang", "camaro"}) // Multiple names can be set!
+@Scope("prototype")
+public Vehicle gasCar() {
+    Car car = new Car();
+    car.setEngine(gasEngine()); // Setter Injection
+    return car;
+}
+```
+
+```
+@Bean(name = "tesla")
+// implied @Scope("singleton"), the default bean scope
+public Vehicle electricCar() {
+    Car car = new Car(electricEngine()); // Constructor Injection
+    return car;
+}
+```
+
+**Setter/Constructor Injection**
+ - Setter Injection
+   - Used when the dependency is injected into the object after its created.
+ - Constructor Injection
+   - Used when the dependency is provided at the same time of the object's creation.
+
+**`@Scope` Annotation**
+  - Tells Spring what kind of bean you want
+  - BEAN Scopes:
+    - Singleton - Each bean will be the same (the default, if not specified)
+      - Same memory address
+    - Prototype - Each bean will be different
+    - Application - Creates a bean for the lifespan of the entire app
+    - Request - Creates a bean for the lifespan of an HTTP request
+    - Session - Creates a bean for the lifespan of a user's session
+    - Websocket - Creates a bean for the lifespan of a websocket
+
+**`@Autowired` Annotation**
+ - Asks Spring to give us a bean
+   - Instead of going through the application context ourself
+ - Commonly followed by `@Qualifier()` annotation to specify a bean
+
+**`@Qualifier()` Annotation**
+ - Tells Spring which bean to give us
+ - E.g. `@Qualifier("camaro")`
