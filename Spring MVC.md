@@ -46,3 +46,36 @@
    - `@Repository` - Talks to the DB - Sent back to the user
 
 ![[Model.png]]
+
+---
+
+# Class Notes
+
+ - Don't store passwords in plaintext!
+
+## Controller vs RestController
+
+### RestController
+ - Implicitly adds `@ResponseBody` to every method in the class.
+ - `@ResponseBody` tells the controller that the object returned in serialized into JSON inside the body of the HTTP response.
+	 - Needs to take in data from somewhere -- using `@RequestMapping`.
+
+### Controller
+ - More general.
+	 - You'd have to add `@ResponseBody on every method`.
+
+
+## Returning via HTTP
+```
+// Return is accessible on localhost:8080/users/helloworld
+
+@RestController
+@RequestMapping("/users")
+public class UserController {
+    @RequestMapping("/helloWorld")
+    public String helloWorld() {
+        return "Hello World!";
+    }
+}
+```
+
