@@ -3,12 +3,18 @@
 # Spring MVC
 
 **Contents**
-- [Spring MCV](#spring-mvc)
+- [Spring MVC](#spring-mvc)
 - [MVC Overview](#mvc-overview)
   - [MVC - Model View Controller](#mvc---model-view-controller)
   - [Serverlets](#serverlets)
   - [Front Controller](#front-controller)
 - [Project 1 Structure](#project-1-structure)
+- [Class Notes](#class-notes)
+  - [Controller vs RestController](#controller-vs-restcontroller)
+    - [RestController](#restcontroller)
+    - [Controller](#controller)
+  - [Returning via HTTP](#returning-via-http)
+  - [Postman](#postman)
 
 # MVC Overview
 
@@ -64,6 +70,20 @@
  - More general.
 	 - You'd have to add `@ResponseBody on every method`.
 
+### Other
+ - `@AutoWired` - Asks spring boot to give us a service
+ - `@PathVariable` 
+ - `@PostMapping` - Used for creating data via `POST` request
+ - `@RequestBody` - Looks for the data in the body of your request
+	 - Deserializes the JSON
+ - `@RequestParam` - Finds the data for the parameter in the URL path
+	 - `/users/firstName?firstName=[data]` - Everything after the `?` are the parameters
+```
+@GetMapping("/firstName")
+public List<User> findByFirstName(@RequestParam String firstName) {
+    return service.findUsersByFirstName(firstName);
+}
+```
 
 ## Returning via HTTP
 ```
@@ -76,6 +96,34 @@ public class UserController {
     public String helloWorld() {
         return "Hello World!";
     }
+}
+```
+
+## Postman
+
+Install and make an account, and then hit the + button and add a new request at the port we specified!
+![alt text](<PostMan.png>)
+
+Start the `UserController.java` file, and once it's done loading, the GET request should return `Hello World!`.
+
+![](Images/Postman%20Result.png)
+
+### Requests
+ - `GET` - Retrieves data
+ - `POST` - Creates data
+ - `PUT` - Updates data
+ - `DELETE` - Deletes data
+
+## Response Entity
+ - An object that gives you more control over your HTTP response.
+	 - Allows you to create objects
+	 - Modify status codes, header, etc.
+
+```
+public ResponseEntity<User> createUser(@RequestBody User user) {
+     User createdUser = service.createUser(user);
+     return new ResponseEntity<User>(createdUser, HttpStatus.CREATED);
+     // Should return with a 201 CREATED response
 }
 ```
 
