@@ -72,8 +72,11 @@
 
 ### Other
  - `@AutoWired` - Asks spring boot to give us a service
- - `@PathVariable` 
+ - `@PathVariable` - e.g. `user/[id]`, similar to `@RequestParam`
  - `@PostMapping` - Used for creating data via `POST` request
+ - `@PutMapping` - Used to handle HTTP `PUT` requests for setting data
+ - `@RequestMapping` - Can handle all types of requests
+	 - Note that `POST` requests are used to send data
  - `@RequestBody` - Looks for the data in the body of your request
 	 - Deserializes the JSON
  - `@RequestParam` - Finds the data for the parameter in the URL path
@@ -126,4 +129,20 @@ public ResponseEntity<User> createUser(@RequestBody User user) {
      // Should return with a 201 CREATED response
 }
 ```
+
+# DTOs
+
+Data Transfer Object
+ - Facilitate the transfer of data for your models
+	 - More specifically, rather than transferring your model, you transfer its DTO
+ - DTO isn't going to have everything a model would
+	 - A hardcoded way to make sure that certain info in the model doesn't get passed to the frontend
+		 - For example, passwords, or other sensitive information
+		 - Not necessarily for security, though - it just ensures it doesn't get to the frontend
+ - To work with a DTO, you need a Mapper!
+	 - Converts the model to the DTO, and vice-versa
+ - You might consider multiple DTOs
+	 - Like a `UserCreateDto` that has a password, but no ID
+
+
 
