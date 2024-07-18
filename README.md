@@ -15,11 +15,9 @@
 
 - [Maven](./Maven.md)
 
-- [Spring and Springboot](./SpringBoot.md)
+- [Spring and Springboot](./SpringBootNav.md)
 
 - [SQL and Databases](./SQL.md)
-
- - [SpringBoot](./SpringBoot.md)
 
 ## Contributions
 See the original post in Discord > notes-resources to see who to contact to get added. Be sure to include your github username when you do so.
