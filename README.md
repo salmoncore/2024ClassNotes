@@ -8,7 +8,7 @@
 ## Study Notes
 
 - [Week 1](./Week1StudyNotes.md)
-- [Week 2 Topics to Study](./TopiccToStudyWeek2.md)
+- [Week 2 Topics to Study](./TopicsToStudyWeek2.md)
 
 ## Topics
 
