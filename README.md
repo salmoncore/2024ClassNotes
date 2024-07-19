@@ -8,8 +8,7 @@
 ## Study Notes
 
 - [Week 1](./Week1StudyNotes.md)
-- Week 2
-![](./Images/StudyTopicsWeek2.png)
+- [Week 2 Topics to Study](./TopiccToStudyWeek2.md)
 
 ## Topics
 

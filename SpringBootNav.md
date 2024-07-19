@@ -5,6 +5,7 @@
 - [Resources](#resources)
 
 ## Contents
+- [Beans](./Beans.md)
 - [Springboot Overview](./SpringBoot.md)
 - [Spring Overview](./Spring.md)
 
