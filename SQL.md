@@ -15,6 +15,7 @@
 - [Normalization](./Normalization.md)
 - [Data Definition Language (DDL)](./DataDefinitionLanguage.md)
 - [Data Manipulation Language (DML)](./DataManipulationLanguage.md)
+- [Idempotence](./Idempotence.md)
 
 ### SQL
 - [Data Types](./SQLDataTypes.md)
