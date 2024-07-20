@@ -20,6 +20,7 @@
 - [Resources](#resources)
 
 ### Web API Development
+- [Web API Developement](./More%20JPA.md#web-api-development)
 - Client-Server Architecture
 - Web Servers (Tomcat)
 
@@ -101,11 +102,13 @@
 - @Query and JPQL
 
 ## Global Exception Handler
+- [Global Exception Handler](./More%20JPA.md#global-exception-handler)
 - @ResponseStatus and @ControllerAdvice
 - Bean Validation
 - @Valid and @Min @Max @NotNull @NotBlank
 
 ## Aspect-Oriented Programming
+- [Aspect-Oriented Programming](./More%20JPA.md#aspect-oriented-programming)
 - AOP and cross cutting concerns
 - @EnableAspectJAutoproxy
 - Pointcut, join point, advice, aspect, weaving

@@ -1,14 +1,20 @@
 # README
 
 ## Contents
-- [Quick Notes](#quick-notes)
+- [Study Notes](#study-notes)
+    - [Week 1](#week-1)
+    - [Week 2](#week-2)
 - [Topics](#topics)
 - [Contributions](#contributions)
 
 ## Study Notes
-
+### Week 1
 - [Week 1](./Week1StudyNotes.md)
-- [Week 2 Topics to Study](./TopicsToStudyWeek2.md)
+### Week 2
+- 
+    - [Week 2 Topics to Study](./TopicsToStudyWeek2.md)
+    - [Spring Data and JPA](./Spring%20Data%20JPA.md)
+    - [More JPA](./More%20JPA.md)
 
 ## Topics
 

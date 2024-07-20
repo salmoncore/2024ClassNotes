@@ -1,4 +1,20 @@
 << [README](./README.md)
+
+# JPA
+## Contents
+- [Recap](#recap)
+- [Potential Exam Topics](#potential-exam-topics)
+- [Web API Development](#web-api-development)
+- [Spring Boot](#spring-boot)
+- [Spring MVC](#spring-mvc)
+- [Spring Data JPA](#spring-data-jpa)
+- [Transactions](#transactions)
+- [Aspect-Oriented Programming](#aspect-oriented-programming)
+- [Global Exception Handler](#global-exception-handler)
+- [Indempotence](#idempotence)
+- [Validation Checks](#validation-checks)
+- [Transient Objects](#transient-objects)
+- [Advice and Aspect Oriented Programming](#advice-and-aspect-oriented-programming)
 # Recap
 - `DirectorController`
 	- REST controller managing HTTP requests related to `Director` entities.
@@ -115,6 +131,7 @@
 # Back to JPA
 
 ### Idempotence
+- [Indempotence Main Document](./Idempotence.md)
 ![](Images/Pasted%20image%2020240719110934.png)
  - HTTP put/delete requests should be idempotent?
 
