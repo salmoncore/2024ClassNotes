@@ -15,6 +15,7 @@
     - [Week 2 Topics to Study](./TopicsToStudyWeek2.md)
     - [Spring Data and JPA](./Spring%20Data%20JPA.md)
     - [More JPA](./More%20JPA.md)
+    - [Flashcards↗️](https://quizlet.com/929838247/week-2-flash-cards/?i=5xogv5&x=1qqt)
 
 ## Topics
 

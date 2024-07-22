@@ -145,3 +145,4 @@
 - [Running Spring Boot Applications](https://stackoverflow.com/questions57206960spring-boot-application-run-configurations-with-vscode)
 - [Running Spring Boot Applications](https://code.visualstudio.com/docs/java/java-spring-boot)
 - [Configuring launch.json](https://code.visualstudio.com/docs/cpp/launch-json-reference)
+- [Flashcards↗️](https://quizlet.com/929838247/week-2-flash-cards/?i=5xogv5&x=1qqt)
