@@ -20,6 +20,7 @@
 
 ### Week 3
 - [Week 3 Topics to Study](./TopicsToStudyWeek3.md)
+- [Flashcards↗️](https://quizlet.com/930126122/week-3-flash-cards/?i=5xogv5&x=1jqt)
 
 ## Topics
 
