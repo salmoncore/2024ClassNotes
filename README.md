@@ -4,6 +4,7 @@
 - [Study Notes](#study-notes)
     - [Week 1](#week-1)
     - [Week 2](#week-2)
+    - [Week 3](#week-3)
 - [Topics](#topics)
 - [Contributions](#contributions)
 
@@ -17,7 +18,12 @@
     - [More JPA](./More%20JPA.md)
     - [Flashcards↗️](https://quizlet.com/929838247/week-2-flash-cards/?i=5xogv5&x=1qqt)
 
+### Week 3
+- [Week 3 Topics to Study](./TopicsToStudyWeek3.md)
+
 ## Topics
+
+- [HTML, CSS, Javascript](./HTMLCSSJavascript.md)
 
 - [Java](./Java.md)
 
