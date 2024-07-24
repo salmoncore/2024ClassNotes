@@ -8,6 +8,10 @@
     - [CSS](#css)
     - [JavaScript](#javascript)
 
+## Topics
+### JavaScript
+- [JavaScript History](./JavaScriptHistory.md)
+
 ## Resources
 ### HTML
 - [Structuring the web with HTML↗️](https://developer.mozilla.org/en-US/docs/Learn/HTML) - 📄 HTML Intro
