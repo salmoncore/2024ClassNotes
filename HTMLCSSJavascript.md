@@ -10,6 +10,7 @@
 
 ## Topics
 ### JavaScript
+- [Data Types](./JavaScriptDataTypes.md)
 - [History](./JavaScriptHistory.md)
 - [Variables](./JavaScriptVariables.md)
 
