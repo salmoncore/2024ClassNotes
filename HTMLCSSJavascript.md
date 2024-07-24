@@ -12,6 +12,7 @@
 ### JavaScript
 - [Data Types](./JavaScriptDataTypes.md)
 - [History](./JavaScriptHistory.md)
+- [Objects](./JavaScriptObjects.md)
 - [Variables](./JavaScriptVariables.md)
 
 ## Resources
