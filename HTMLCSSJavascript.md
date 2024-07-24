@@ -10,7 +10,8 @@
 
 ## Topics
 ### JavaScript
-- [JavaScript History](./JavaScriptHistory.md)
+- [History](./JavaScriptHistory.md)
+- [Variables](./JavaScriptVariables.md)
 
 ## Resources
 ### HTML

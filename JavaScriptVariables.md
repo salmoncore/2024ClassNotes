@@ -1,3 +1,13 @@
+<< [README](./README.md)
+
+# JavaScript Variables
+
+## Contents
+- [Declaration](#declaration)
+- [Hoisting](#hoisting)
+- [Functions](#functions)
+- [Resources](#resources)
+
 ## Declaration
 - Three ways to declare a variable:
     - Function scoped - old way of declaring variables
@@ -29,3 +39,4 @@
 ## Resources
 - [Difference between function scope and block scope in javascript?↗️](https://blog.coolhead.in/difference-between-function-scope-and-block-scope-in-javascript#) - 📄 Article discussin the various scopes in JavaScript including local and global scope.
 - [JavaScript Hoising↗️](https://www.w3schools.com/js/js_hoisting.asp) - 📄🕹️ Document discussing variable hoisting in Javascript. Includes some "Try it yourself" sections.
+- [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions) - 📄 MDN Web Docs about JavaScript functions.
