@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "04446015827b4e77",
+    "type": "split",
+    "children": [
+      {
+        "id": "1890069cd31a14e7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "92729b9d8d08cc33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Week 4/Monday - TBD.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00d54579d7815d47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Week 4/Monday - TBD.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b9d30dc607d54139",
+    "type": "split",
+    "children": [
+      {
+        "id": "f878c9ffe8641302",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2be0ae97e581e8de",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "b8517ccfd90f73b2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "df3b37447e20a78a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 238.5069465637207
+  },
+  "right": {
+    "id": "b2bb30b5f639efbb",
+    "type": "split",
+    "children": [
+      {
+        "id": "d95f42eca4245655",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1edfff23a7eafcd2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Week 4/Monday - TBD.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c048263fb2ef5992",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Week 4/Monday - TBD.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1b6049913f5f830b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "827d2666a846a77d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Week 4/Monday - TBD.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "00d54579d7815d47",
+  "lastOpenFiles": [
+    "Images/Pasted image 20240729113728.png",
+    "Week 5/Friday - API Testing.md",
+    "Week 5/Thursday - Test Results.md",
+    "Week 5/Wednesday - Cucumber.md",
+    "Week 5/Tuesday - Selenium.md",
+    "Week 5/Monday - TBD.md",
+    "Week 4/Monday - TBD.md",
+    "Week 4/Friday - Manual Testing.md",
+    "Week 4/Thursday - Test Monitoring.md",
+    "Week 4/Wednesday - Test Designs.md",
+    "Week 4/Tuesday - Testing Principles.md",
+    "Week 4/Untitled 1.md",
+    "Week 9",
+    "Week 8",
+    "Week 7",
+    "Week 6",
+    "Week 5",
+    "Week 4",
+    "Archive/Spring MVC.md",
+    "Archive/More React Notes.md",
+    "Archive",
+    "Archive/React Concepts.md",
+    "Images/Pasted image 20240725105038.png",
+    "Images/Pasted image 20240725103034.png",
+    "Images/Pasted image 20240725095903.png",
+    "Images/Pasted image 20240725094042.png",
+    "Images/Pasted image 20240725093941.png",
+    "Images/Pasted image 20240725093939.png",
+    "Archive/More JPA.md",
+    "Archive/Spring Data JPA.md",
+    "Images/Pasted image 20240719104756.png",
+    "Archive/PostGresInstallation.md",
+    "Archive/SQLFunctions.md",
+    "Archive/SQLDataTypes.md",
+    "Archive/README.md",
+    "Archive/SQL.md",
+    "Images/Pasted image 20240719140635.png",
+    "Images/Pasted image 20240719140541.png",
+    "Images/Pasted image 20240719140518.png",
+    "Archive/SpringBoot.md",
+    "Archive/DatatoExclude.md",
+    "7.17 Class Notes.md"
+  ]
+}

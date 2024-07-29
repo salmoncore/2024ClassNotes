@@ -1,0 +1,11 @@
+{
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "Images",
+  "userIgnoreFilters": [
+    "Images/"
+  ],
+  "promptDelete": false
+}
