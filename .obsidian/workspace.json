@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "92729b9d8d08cc33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Week 4/Monday - TBD.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "00d54579d7815d47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week 4/Monday - TBD.md",
+                "file": "Week 4/Monday - Finishing React Example.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week 4/Monday - TBD.md",
+                "file": "Week 4/Monday - Finishing React Example.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Week 4/Monday - TBD.md",
+                "file": "Week 4/Monday - Finishing React Example.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week 4/Monday - TBD.md"
+                "file": "Week 4/Monday - Finishing React Example.md"
               }
             }
           }
@@ -167,7 +154,7 @@
     "Week 5/Wednesday - Cucumber.md",
     "Week 5/Tuesday - Selenium.md",
     "Week 5/Monday - TBD.md",
-    "Week 4/Monday - TBD.md",
+    "Week 4/Monday - Finishing React Example.md",
     "Week 4/Friday - Manual Testing.md",
     "Week 4/Thursday - Test Monitoring.md",
     "Week 4/Wednesday - Test Designs.md",
