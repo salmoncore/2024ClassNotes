@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week 4/Monday - Finishing React Example.md",
+                "file": "Week 4/Tuesday - Testing Principles.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week 4/Monday - Finishing React Example.md",
+                "file": "Week 4/Tuesday - Testing Principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Week 4/Monday - Finishing React Example.md",
+                "file": "Week 4/Tuesday - Testing Principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week 4/Monday - Finishing React Example.md"
+                "file": "Week 4/Tuesday - Testing Principles.md"
               }
             }
           }
@@ -148,13 +148,21 @@
   },
   "active": "00d54579d7815d47",
   "lastOpenFiles": [
+    "Images/Pasted image 20240730114924.png",
+    "Images/Pasted image 20240730114400.png",
+    "Images/Pasted image 20240730110523.png",
+    "Images/Pasted image 20240730110436.png",
+    "Images/Pasted image 20240730104957.png",
+    "Images/Pasted image 20240730103419.png",
+    "Images/Pasted image 20240730102513.png",
+    "Images/Pasted image 20240730094951.png",
+    "Week 4/Monday - Finishing React Example.md",
     "Images/Pasted image 20240729113728.png",
     "Week 5/Friday - API Testing.md",
     "Week 5/Thursday - Test Results.md",
     "Week 5/Wednesday - Cucumber.md",
     "Week 5/Tuesday - Selenium.md",
     "Week 5/Monday - TBD.md",
-    "Week 4/Monday - Finishing React Example.md",
     "Week 4/Friday - Manual Testing.md",
     "Week 4/Thursday - Test Monitoring.md",
     "Week 4/Wednesday - Test Designs.md",
@@ -172,21 +180,13 @@
     "Archive/React Concepts.md",
     "Images/Pasted image 20240725105038.png",
     "Images/Pasted image 20240725103034.png",
-    "Images/Pasted image 20240725095903.png",
-    "Images/Pasted image 20240725094042.png",
-    "Images/Pasted image 20240725093941.png",
-    "Images/Pasted image 20240725093939.png",
     "Archive/More JPA.md",
     "Archive/Spring Data JPA.md",
-    "Images/Pasted image 20240719104756.png",
     "Archive/PostGresInstallation.md",
     "Archive/SQLFunctions.md",
     "Archive/SQLDataTypes.md",
     "Archive/README.md",
     "Archive/SQL.md",
-    "Images/Pasted image 20240719140635.png",
-    "Images/Pasted image 20240719140541.png",
-    "Images/Pasted image 20240719140518.png",
     "Archive/SpringBoot.md",
     "Archive/DatatoExclude.md",
     "7.17 Class Notes.md"
