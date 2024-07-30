@@ -289,5 +289,178 @@ Answers "what to test" using measurable coverage criteria:
 
 Black box, white box, and experience based testing techniques can be useful in test analysis to define more precise and accurate test conditions.
 
+The fourth phase in the testing plan:
+## Test Design
+"How to test the test conditions."
+ - Used to create higher-level test conditions in testware.
 
-((I'm sure I misheard this earlier, but what might be an example of testware? I wrote down onedrive but that seems suspicious))
+### Test Activities and Tasks
+ - The test conditions are used to create high-level test cases and other testware, often involving test design techniques.
+ - Answers "how to test"
+ - Includes the following major activities:
+	 - Identify coverage items
+	 - Designing test cases and sets of test cases
+	 - Defining the test data requirements to support test cases
+	 - Designing the test environment
+	 - Identifying required infrastructure and tools
+ - Identification of defects during test design is a potential benefit
+	 - At this stage (test design), it's cheap to find and fix defects.
+
+### Good Test Case
+Effective
+- Finds faults
+Exemplary
+ - Represents others
+Evolvable
+ - Easy to maintain
+Economic
+ - Cheap to use
+
+### Abstract (logical) vs Concrete Test Cases
+
+Example 2
+ - Application for calculating end-of-year bonuses
+ - Bonuses depend on the time employees work for the company
+
+![](../Images/Pasted%20image%2020240730141531.png)
+
+### Testware (pt. 3)
+There are just more than just tests from the test design phase that we need to focus on.
+Consider:
+ - Test characters, used for exploratory testing
+ - Coverage items (satisfies the coverage criteria for the test analysis phase)
+ - Test environment requirements
+ - Test data requirements
+
+Good practice to first design abstract test cases, and then create concrete test cases.
+
+### Test Activities and Tasks
+Includes the following major activities:
+ - Organizing test cases into prioritized test procedures
+ - Creating test suites needed for execution
+ - Arranging the test procedures within a test execution schedule for efficient execution
+ - Creating manual and automates test scripts
+ - Building and verifying the test environment
+ - Preparing test data and ensuring it is properly loaded into the test environment
+ - Verifying and updating bi-directional traceability between the test bases, test conditions, test cases, test procedures, and test steps
+
+Test procedure is a set of test scripts.
+Arranging the test procedures for efficient execution: 
+ - Let's say test case 2 is dependent on test case 1, test case 3 is dependent on test case 4
+	 - Need to make sure you don't have blockers when scheduling test cases
+
+![](../Images/Pasted%20image%2020240730142609.png)
+Stubs are developed to replace a called component that's not there yet.
+Drivers are the opposite of a stub - a substitute of a calling component, used in isolation.
+Simulators are a component that behave like a certain component or system under certain conditions.
+Service virtualizations enable virtual delivery of services that are going to be deployed, managed remotely.
+
+### Test activities and Tasks
+Tests are run in accordance with the test execution schedule.
+Includes the following activities:
+ - Executing tests in the planned sequence (manual or automated)
+ - Comparing actual with expected results and log anomalies as incidents
+ - Analyzing anomalies to find out their likely causes (defects, false positives, false negatives.)
+ - Logging test results (pass, fail, blocked, etc.)
+ - Repeating test activities when the incidents are solved (confirmation test, run corrected test, regression test)
+
+More:
+![](../Images/Pasted%20image%2020240730143727.png)
+
+## Testware (ctd. further)
+Work products report:
+ - Test Completion Report
+ - Action items for improvement
+ - Documented lessons learned
+	 - If you don't document, there's a chance you'll have to re-learn!
+ - Change requests or product backlog items
+
+# Testing Roles
+ - **Test Management**
+ - **Testing**
+
+There will be situations where one role will be needed more than the other.
+There is a division of activities between the two.
+
+Activates and tasks per role depend on many factors:
+ - The project
+ - Product context
+ - Skills of the people who are in the test management and testing roles
+ - The organization
+
+## Test Management Role
+Responsible for:
+ - Test Process
+ - Test team
+ - Leadership of test activities
+
+Main focus:
+ - Test planning
+ - Test monitoring and control
+ - Test completion
+
+![](../Images/Pasted%20image%2020240730144325.png)
+^ These orange steps are relevant for this role.
+
+### Test Planning
+ - Develop or review a test policy and test strategy for the organization
+ - Plan the test activities
+ - Write and update the test plans
+ - Coordinate the test plans with stakeholders
+ - Share testing perspective with other project activities such as integration planning
+ - Initiate the analysis, design, implementation, and execution phases
+ - Introduces suitable metrics for measuring test progress
+
+### Test Monitoring and Control
+ - Monitors test progress and results, checks the status of the exit criteria
+ - Adapts test plan and planning based on test results, progress, and feedback
+	 - If something isn't going to plan, we adjust based on the results/progress given
+
+### Test Completion
+ - Checks the status of the exit criteria - "is testing done?"
+ - Prepare sand delivers the completion report
+ - Initiates the archiving or handing over the testware to the appropriate team(s)
+	 - Writes down the lessons learned
+
+### Test Management Role - Additions
+ - Supports the selection and implementation of tools to support the test process
+	 - Budget
+	 - Time
+	 - Effort
+ - Decides the implementation of test environments
+ - Promotes and advocates the testers, test team, and the test profession within the org.
+ - Develops the skills and careers of testing (training, evaluations, coaching, etc.)
+ - The way in which the role is carried depends on the SDLC (software development lifecycle)
+
+## Test Role - Activities
+ - Reviews and contributes to test plans
+ - Analyzes, reviews, and assesses requirements, user stories, and acceptance criteria
+ - Identifies and documents test conditions and captures traceability between test cases, test conditions, and the test basis
+ - Designs, sets up, and verifies test environments
+ - Designs and implements test cases, test procedures and test data
+ - Creates detailed test execution schedule
+ - Executes tests, evaluates the results, and documents deviations
+ - Automates tests as needed
+
+### Test Role - Additional Activities
+ - Evaluates non-functional characteristics such as performance, efficiency, reliability, usability, security, compatibility, portability
+ - Reviews tests developed by others
+ - Specialist roles can be related to test analysis, test design, specific test types or test automation
+ - Different roles may take over the role of tester based on the risks related to the project and product and the SDLC used:
+	 - Component - Integration Level - Developers
+	 - Acceptance Level - Business experts and users
+	 - System - Integration level - Independent test team
+	 - Operational acceptance level - operators
+
+### Role Division
+Test Management Role
+ - Team Leader
+ - Test Manager
+ - Development Manager
+ - One person who has the test management and the testing role
+Testing Role
+ - Tester
+ - DevOps
+ - Customer support
+ - Developer
+
