@@ -179,13 +179,175 @@ Development work passes through a sequence of prototypes that are:
  - Retested
  - Until all design decisions have been proven by testing
 
-## Fundamentals of Agile
+## Fundamentals of [Agile](https://www.atlassian.com/agile)
 ### Agile Manifesto
 Some software development gurus decided they didn't like how software was being developed - the current development practice was slow, inflexible, and didn't have any system of feedback. They wanted to discover better ways of developing software, and published a manifesto with these details:
 
-**Individuals and interactions** OVER process and tools
-**Working software** OVER comprehensive documentation
-**Customer collaboration** OVER contract negotiation
-**Responding to change** OVER following a plan
+**1. Individuals and interactions** OVER process and tools
+**2. Working software** OVER comprehensive documentation
+**3. Customer collaboration** OVER contract negotiation
+**4. Responding to change** OVER following a plan
 
 The Agile Manifesto values the concepts on the right, but believes the ones on the left have a greater value.
+
+### Individuals and Interactions
+Agile is people-centered
+Teams build software - not processes
+Continuous communication
+
+### Working Software
+Customers do not care about detailed documentation
+Working software is the most useful and valuable
+Enables rapid feedback to the development team
+Availability of working software can result in time-to-market advantage
+
+Agile is well-suited for environments where the solution isn't necessarily clear - for places where you might want to innovate.
+
+### Customer Collaboration
+Customer finds it difficult to specify requirements.
+Working strictly on the original requirements might end up with useless software.
+Collaboration results in better understanding of what the customer wants.
+Contracts are important, working closely together with customers is more likely to bring success.
+
+Sticking with your original plan the entire time can become useless as requirements change and feedback is exchanged.
+
+### Responding to Change
+Change is inevitable and should be responded to
+ - Before Agile, change wasn't welcomed since it'd cause delays, higher costs, complications
+Flexibility is more important than sticking to the plan
+Smart and flexible planning is needed
+Many factors can have a major influence on the project
+ - Environment
+ - Business domain
+ - Legislation
+ - Technological advances
+
+### Whole-team Approach
+Involving everyone with the needed skills and knowledge to ensure success
+The team includes customer and other business representatives
+Teams should be relatively small (3-9 people)
+ - Larger teams should be split up
+Approach is supported through daily stand-up meetings with the entire team
+Promotes more effective and efficient team dynamics
+ - Another one of the ideas behind Agile development
+
+### Agile Testing Specifics
+Changes will occur, so:
+ - Use lightweight documentation
+ - Implement extensive test automation
+Use experience-based testing for manual test activities
+
+### Agile Approach - SCRUM
+![](../Images/Pasted%20image%2020240731104006.png)
+
+In Agile, there are two approaches used a lot - SCRUM and KANBAN
+
+**SCRUM**
+The product organizer makes and ranks a list of required features/stories. **This is the Product Backlog.**
+
+The team selects requirement items it commits to deliver by the end of the spring. **This is a Sprint Plan Meeting.**
+ - Typically, sprints are a fixed-length.
+
+Task Breakdown - **the Sprint Backlog.**
+
+When you have a releasable product, that is going to be the product increment.
+To ensure there is a releasable product at the end of a sprint, the SCRUM team defines an appropriate criteria for a sprint completion.
+
+**Kanban**
+![](../Images/Pasted%20image%2020240731104951.png)
+
+Kanban utilizes three instruments:
+ - Kanban Board
+ - Work in progress limit
+	 - Maximum number of tickets for a column
+ - Lead time
+
+Value chain is visualized by the board, each column focusing on an activity or related activity.
+The main idea of Kanban is the board - it's more of an organization tool for visually knowing what's in progress and where it's at. It's not so much a development philosophy like Agile is.
+
+### Kanban vs Scrum
+**Similarities**
+ - Visualization of active tasks
+ - Transparency on content and progress
+ - Inactive tasks are in the backlog
+ - Tasks get placed on the backlog when there is capacity
+
+**Differences**
+- Iterations (sprints) are optional in Kanban\
+- Deliverables are released item by item instead of in a release
+- Timeboxing is optional, unlike in SCRUM
+
+### Agile and Testing
+**Benefits**
+ - Focus on working software and good quality code
+ - Testing as starting point of development
+ - Business stakeholders accessible
+ - Whole team responsible for the quality
+ - Simple design is easier to test
+
+**Challenges**
+ - Less well-documented requirements
+ - Testers feel less needed as dev does more component testing
+ - More of a coaching role, can be difficult
+ - Constant time pressure and less time to think on testing new features
+ - Regression becomes extremely important and automation more beneficial
+
+Regression - something broken in the system that now needs to be tested.
+
+### Testing in a lifecycle model
+Whichever development model is used, the below is always the case:
+ - For each development activity, there is a corresponding testing activity
+ - Each test level has test objectives specific to that level
+ - Test analysis and design of tests for a given test level should begin during the corresponding development activity
+ - Testers should be involved in reviewing documents as soon as drafts are available in the development lifecycle
+
+### Testing as a Driver for Software Development
+Approaches to produce quality products - introduce testing as early as possible:
+ - Writing tests in advance, before the code
+ - Focusing on early defect prevention, detection, and removal
+ - Following a shift-left approach
+ - Ensuring the right test types are run at the right time as part of the right test level
+ - Use automated tests to ensure code quality in future adaptations or code refactoring
+
+Agile testers play a key role in guiding the use of these testing practices.
+
+### Test-Driven Development
+ - Became popular through XP
+ - Develop code guided by automated test cases
+ - Mainly on unit-level and code-focused
+ - CAN also be used on integration/system level
+ - Used in Agile and sometimes in sequential
+ - Helps developers focus on clearly expected results
+ - Tests are automated
+
+### Acceptance Test-Driven Development
+ - Acceptance criteria and tests are defined during the creation of the user stories
+ - Encourages collaboration amongst the business, developer, and tester
+ - Every stakeholder should understand how the software component has to behave and what is needed to ensure this behavior
+ - ATDD creates reusable tests for regression testing
+ - Tools support creation and execution of tests (often in the CI process)
+ - Helps determine the acceptance criteria are met for the feature
+
+### Behavior-Driven Development
+BDD helps developers collaborate with other stakeholders to define accurate tests focused on business needs
+
+Allows a developer to focus on testing the code based on the desired behavior
+
+As tests are based on the desired behavior, the tests are easier to understand
+
+Specific frameworks to define acceptance criteria based on the "given/when/then" format:
+ - **Given** some initial context
+ - **When** an event occurs
+ - **Then** ensure some outcomes
+
+Test cases are automatically translated into executable tests
+
+Example tool for Behavior-Driven Development: Cucumber
+ - Translates test cases into executable tests
+
+### TDD vs. BDD vs. ATDD
+![](../Images/Pasted%20image%2020240731114558.png)
+
+==**Important to know:**==
+Explain the difference between behavior driven, test driven, and acceptance testing.
+
