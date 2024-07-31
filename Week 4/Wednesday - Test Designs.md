@@ -351,3 +351,13 @@ Example tool for Behavior-Driven Development: Cucumber
 ==**Important to know:**==
 Explain the difference between behavior driven, test driven, and acceptance testing.
 
+**Caroline Advice**
+For the exam Monday, specifically for SDLC, with Agile, know the difference between product backlog, sprint backlog, (there was one I missed)
+
+3 different sequential - waterfall, V, W.
+
+Exam will be more in-tune with the testing side of things - SDLC questions will be more about the testing side. 
+
+The practice exam that ISTQB offers will give us an idea for what to expect for both the Monday exam and the certification exam
+
+**We'll be reimbursed for the cost of the exam - Date scheduled for Friday, August 9th**
