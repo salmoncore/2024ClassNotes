@@ -361,3 +361,147 @@ Exam will be more in-tune with the testing side of things - SDLC questions will 
 The practice exam that ISTQB offers will give us an idea for what to expect for both the Monday exam and the certification exam
 
 **We'll be reimbursed for the cost of the exam - Date scheduled for Friday, August 9th**
+
+---
+# Post-Lunch Lecture
+
+---
+
+## What is DevOps?
+DevOps is an agile approach
+Removing the siloes between development and operations
+Working together towards achieving a set of common goals
+There are no separate agendas for development and operations
+Implementation requires organizational and cultural shift 
+
+### Why DevOps?
+If implemented correctly - 
+ - Team autonomy
+ - Everyone is on the same page
+ - Integrated toolchains
+ - Continuous Integration and Continuous Delivery 
+	 - Build
+	 - Test
+	 - Release high-quality software fast through delivery pipelines
+ - Fast feedback loops in all phases
+	 - Code built with unit tests
+	 - Code coverage defined and measured with each code check-in
+	 - Fast and better view on non-functional quality characteristics
+
+### Risks of DevOps on Testing
+- Define and establish the CI/CD pipelines
+- CI/CD tools implementation and maintenance
+- Test automation requires additional resources
+
+(sorry missed some slides ranting about lazy loading breaking my project)
+
+### Test Levels
+Groups of test activities that are organized and managed together
+Performed in relation to software at a given level of development
+Identify missing areas and prevent overlap and reptation of tests in SDLC
+Implementation of Test Levels depends on SDLC
+Test Levels described are:
+ - Component testing
+ - Component integration testing
+ - System testing
+ - System integration testing
+
+### Component Testing
+(missed a few more slides sorry)
+
+Usually executed by the developer who wrote the code
+Requires access to the tested code
+Tests can be written after the code or vice-versa
+TDD - First write tests, then write code
+
+### Component Integration and Testing - Typical Defects and Failures
+
+### Component Integration Testing - Approach and Responsibilities
+Should focus on the integration itself, not on the individual modules
+Function, non-functional and structural tests are applicable
+Best practice is to first plan integration tests and integration strategy before building components
+Component integration testing heavily depends on the integration strategy
+ - Top-down, bottom-up, big bang, incremental
+
+### System Testing
+Focuses on the behavior and capabilities of a whole system or product
+Looks at the functional end-to-end tasks the system can perform
+Automated system regression tests provide confidence
+Often produces information for the stakeholder
+Test environment should be as close as possible to the production environment spec
+
+### System Testing - Typical Defects and Failures
+Incorrect Calculations
+Incorrect control or data flows/behaviors
+etc.
+
+### System Testing - Approach and Responsibilities 
+Should focus on the overall, end-to-end behavior of the system as a whole
+Includes functional and non-functional
+Can be tested using specification-based techniques (black box) or structure based techniques (white box)
+Typically performed by independent testers
+
+### System Integration Testing
+Focuses on interactions between systems, packages, and microservices
+External dependencies can cause challenges
+Can be performed after or during system testing
+ - Done by people in the testing world
+Should be as close to the operating environment as possible
+Think of the integration of an asset system - OneDrive or DropBox
+ - These examples are the asset management systems that are a good example for asset integration testing
+ - OneDrive - document storage system is similar to an asset management system.
+	 - Testing environment should be as close to the operating environment as possible
+	 - Think of integration of an asset management system like a document storage system we're familiar with
+	 - OneDrive and Dropbox have external interactions/dependencies 
+
+### Objectives for Integration Testing
+Includes reducing risk, verifying functional/nonfunctional behavior
+Want to validate the system, ensure it's complete and works as expected
+Preventing defects from the system
+Finding defects
+Because we test the system as a whole, including the connection to external systems is possible
+
+### System Testing - Typical Defects and Failures
+System interface mismatch - failure to communicate between systems
+Improperly handled messages between systems
+Incorrect assumptions about systems 
+
+### Approaches and responsibilities for system testing
+This is on the systems level as well
+Focuses on the integration itself, not systems as a whole (this has been covered at this point)
+Best practice is to first plan the integration tests, and then the integration strategy before building the systems later on
+Another approach - Risk analysis focusing on testing, gives a greater scope
+ - Greater scope increases difficulty in isolating defects
+
+### Acceptance Testing
+Highest level - finds and fixes defects, but will be way more expensive than the system level
+This is also the last defense before hitting production, so still far cheaper than production fixes
+Acceptance testing focuses on the behavior and capabilities of a whole system
+ - Acceptance
+ - Demonstrates readiness for fulfillment to a client
+Difference from acceptance/system testing - 
+ - Even if they're similar, acceptance is about the reediness of the system to be deployed
+	 - Establishing confidence, completeness
+	 - Finding defects is often not a goal at this state
+Types of acceptance testing
+ - User acceptance test
+	 - Builds confidence that the user can use the system
+ - Operational acceptance
+	 - Where we build confidence that sysadmins can maintain the system in production
+	 - Installing/uninstalling/disaster recovery, etc.
+ - Contract/regulation acceptance test
+	 - Builds confidence that regulatory compliance has been achieved 
+	 - Done by users, independent testers, sometimes witnessed by regulatory agencies
+ - Alpha/Beta testing
+	 - Like confidence testing with users, but alpha is done within the development organization, but not with the development team. 
+	 - Beta testing is done usually with customers to get feedback - This is the stage for detecting defects for them
+
+### Typical Defects and Failures of Acceptance Testing
+ - System workflows are not meeting the business or user requirements
+ - System doesn't satisfy some requirements for client/regulatory
+ - Non-functional failures
+	 -  Security
+	 - Inadequate performance under load
+	 - Improper operation on a supported platform
+- **Any failure found at this state will be *expensive*, this should already have been fixed.**
+
