@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week 4/Wednesday - Test Designs.md",
+                "file": "Week 4/Thursday - Test Analysis and Design.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week 4/Wednesday - Test Designs.md",
+                "file": "Week 4/Thursday - Test Analysis and Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Week 4/Wednesday - Test Designs.md",
+                "file": "Week 4/Thursday - Test Analysis and Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week 4/Wednesday - Test Designs.md"
+                "file": "Week 4/Thursday - Test Analysis and Design.md"
               }
             }
           }
@@ -148,18 +148,19 @@
   },
   "active": "00d54579d7815d47",
   "lastOpenFiles": [
-    "Images/Pasted image 20240731114558.png",
-    "Images/Pasted image 20240731104951.png",
-    "Images/Pasted image 20240731104006.png",
-    "Images/Pasted image 20240731094755.png",
-    "Images/Pasted image 20240731093546.png",
+    "Images/Pasted image 20240801131033.png",
+    "Images/Pasted image 20240801113919.png",
+    "Images/Pasted image 20240801111948.png",
+    "Images/Pasted image 20240801111315.png",
+    "Images/Pasted image 20240801110329.png",
+    "Images/Pasted image 20240801110007.png",
+    "Images/Pasted image 20240801105533.png",
+    "Images/Pasted image 20240801105117.png",
+    "Images/Pasted image 20240801103148.png",
+    "Images/Pasted image 20240801100939.png",
+    "Images/Pasted image 20240801100347.png",
+    "Week 4/Wednesday - Test Designs.md",
     "Week 4/Tuesday - Testing Principles.md",
-    "Images/Pasted image 20240730144325.png",
-    "Images/Pasted image 20240730143727.png",
-    "Images/Pasted image 20240730142609.png",
-    "Images/Pasted image 20240730141531.png",
-    "Images/Pasted image 20240730114924.png",
-    "Images/Pasted image 20240730114400.png",
     "Week 4/Monday - Finishing React Example.md",
     "Week 5/Friday - API Testing.md",
     "Week 5/Thursday - Test Results.md",
@@ -167,8 +168,7 @@
     "Week 5/Tuesday - Selenium.md",
     "Week 5/Monday - TBD.md",
     "Week 4/Friday - Manual Testing.md",
-    "Week 4/Thursday - Test Monitoring.md",
-    "Week 4/Wednesday - Test Designs.md",
+    "Week 4/Thursday - Test Analysis and Design.md",
     "Week 4/Untitled 1.md",
     "Week 9",
     "Week 8",
