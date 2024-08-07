@@ -182,11 +182,14 @@ public class StepDefinitions {
 
 10. We can also add Scenario Outlines to our `.feature`!
 	1. This is usually **preferred to writing individual scenarios**.
+	2. Needs to be in this format below - the spacing between `|` doesn't matter.
+	3. Note that it does need to be listed under `Examples:` and it does have to be called `Scenario Outline:`
+	4. Off-topic note: Commenting is done using the `#` character
 ```
 	Scenario Outline: Today is or is not Friday
 		Given today is "<day>"
 		When I ask whether it's Friday yet
-		Then I should be told "<answer>"
+		Then I should be told "<answer>" 
 
 	Examples:
 		| day    | answer  |
