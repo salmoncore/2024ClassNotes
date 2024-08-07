@@ -208,3 +208,243 @@ public class StepDefinitions {
 		this.today = today;
 	}
 ```
+
+---
+
+# Using Selenium with Cucumber
+
+We're making a new Cucumber project, similar to the steps above, with Selenium (missed how) and we're saving it to our cucumber folder again.
+
+To make additional tests, under `AcceptanceTests`, there's a field where you can make more of them (Caroline was speeding lol oops)
+
+***we're making another project what***
+
+1. Making new project, `cucumberdemo`, using all the same steps as before.
+2. `src/resource/java/com/skillstorm/StepDefinitions.java`
+3. `resources/com/skillstorm` - rename the `.feature` file to `login.feature`
+```
+@login
+Feature: User Login
+
+	Scenario Outline: Successful login with valid credentials
+		Given I am on the login page 
+		When I enter valid "<username>" and "<password>"
+		And I click the login button
+		Then I should be redirected to the main page
+		And I should see a sign off link
+
+	Examples:
+	| username | password |
+	| admin    | admin    |
+	| jsmith   | Demo1234 | 
+```
+4. Make more folders in `java\com\skillstorm`
+	1. `cucumber`
+		1. Place the `RunCucumberTest.java` and `StepDefinitions.java` files into here
+	2. `selenium`
+		1. Add a file called `LoginPage.java`
+
+***-Lunch Break-***
+
+5. We'll go ahead and add a new dependency:
+	1. It's for Selenium, we didn't need to make add it earlier via dependencies or anything - this works fine.
+```
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.23.0</version>
+		</dependency>
+```
+
+6. Back to `LoginPage.java`
+	1. Adding some new code:
+		1. `@FindBy` - Used to locate web elements on a webpage using locators
+```
+package com.skillstorm.selenium;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class MainPage {
+	private WebDriver driver;
+	private static final String url = "http://testfire.net/login.jsp";
+
+	// @FindBy - Used to locate web elements on a webpage using locators
+	@FindBy(id = "uid")
+	private WebElement usernameField;
+
+	@FindBy(id = "passw")
+	private WebElement passwordField;
+
+	@FindBy(name = "btnSubmit")
+	private WebElement loginButton;
+
+	public LoginPage(WebDriver driver) {
+		this.driver = driver;
+		driver.manage().timeouts().implicitlyWait(Duration.ofSecond(10));
+		PageFactory.initElements(driver, this);
+	}
+
+	// Wait 1 sec and then get URL
+	public void get() {
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		this.driver.get(url);
+	}
+
+	// Wait 1 sec and then enter username
+	public void setUsername(String username) {
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		usernameField.sendKeys(username);
+	}
+
+	// Wait 1 sec and then enter password
+	public void setPassword(String password) {
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		passwordField.sendKeys(password);
+	}
+
+	// Wait 1 sec and then click login
+	public void clickLogin() {
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		loginButton.click();
+	}
+}
+```
+
+7. Making a new file under `selenium` called `MainPage.java`
+```
+package com.skillstorm.selenium;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class MainPage {
+	private WebDriver driver;
+	private static final String url = "http://testfire.net/bank/main.jsp";
+
+	@FindBy(id = "LoginLink")
+	private WebElement signOffLink;
+
+	public MainPage(WebDriver driver) {
+		this.driver = driver;
+		driver.manage().timeouts().implicitlyWait(Duration.ofSecond(10));
+	}
+
+	public boolean onPage() {
+		try {
+			Thread.sleep(1000);
+		} catch(InterruptedException e) {
+			e.printStackTrace();
+		}
+		return driver.getCurrentUrl().equals(url);
+	}
+
+	public boolean signOffLinkDisplayed() {
+		try {
+			Thread.sleep(1000);
+		} catch(InterruptedException e) {
+			e.printStackTrace();
+		}
+		return signOffLink.isDisplayed();
+	}
+}
+```
+
+8. Under `cucumber`, create a new file: `LoginSteps.java`
+	1. Note the line that may cause issues for Mac users in the `@Before` statement
+	2. If dependencies are causing issues, try ensuring your Java version and PATH
+```
+package com.skillstorm.cucumber;
+
+import io.cucumber.java.en.*;
+import org.junit.jupiter.api.Assertions.*;
+import org.openqa.selenium.WebDriver;
+import com.skillstorm.selenium.LoginPage;
+import com.skillstorm.selenium.MainPage;
+
+public class LoginSteps {
+	private WebDriver driver;
+	private LoginPage loginpage;
+	private MainPage mainpage;
+
+	@Before("@login")
+	public void before() {
+		System.setProperty("webrdriver.chrome.driver", "C:\\skillstorm\\chromedriver.exe"); // This may cause issues.
+		ChromeOptions options = new ChromeOptions();
+		WebDriver driver = new ChromeDriver(options);
+		this.driver = new ChromeDriver();
+		this.loginPage = new LoginPage(options);
+		this.mainPage = new MainPage(options);
+	}
+
+	@Given("I am on the login page")
+	public void iAmOnTheLoginPage() {
+		this.loginPage.get();
+	}
+
+	@When("I enter valid {string} and {string}")
+	public void iEnterValidCredentials(String username, String password) {
+		this.loginPage.setUsername(username);
+		this.loginPage.setPassword(password);
+	}
+
+	@When("I enter invalid {string} and {string}")
+	public void iEnterInvalidCredentials(String username, String password) {
+		this.loginPage.setUsername("incorrect");
+		this.loginPage.setPassword("invalid");
+	}
+
+	@And("I click the login button")
+	public void iClickTheLoginButton() {
+		this.loginPage.clickLogin();
+	}
+
+	@Then("I should be redirected to the main page")
+	public void iShouldBeRedirectedToTheMainPage() {
+		assertTrue(this.mainPage.onPage());
+	}
+
+	@Then("I should see a sign off link")
+	public void iShouldSeeASignOffLink() {
+		assertTrue(this.mainPage.signOffLinkDisplayed());
+	}
+
+	@Then("I should see an error message {string}")
+	public void iShouldSeeAnErrorMessage(String message) {
+		assertTrue(this.loginPage.errorMessageDisplayed(message));
+	}
+}
+```
+
+9. Back under `selenium` and in `MainPage.java`
+```
+@FindBy(id = "uid")
+private WebElement usernameField;
+
+@FindBy(id = "passw")
+private WebElement passwordField;
+
+@FindBy(id = "btnSubmit")
+private WebElement loginButton;
+
+@FindBy(id = "_ctl0__ctl01_Content_Main_message")
+private WebElement errorMessage;
+```
