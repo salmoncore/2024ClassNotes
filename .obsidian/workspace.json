@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week 5/Thursday - Test Results.md",
+                "file": "Week 5/ISTQC Review.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week 5/Thursday - Test Results.md",
+                "file": "Week 5/ISTQC Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Week 5/Thursday - Test Results.md",
+                "file": "Week 5/ISTQC Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week 5/Thursday - Test Results.md"
+                "file": "Week 5/ISTQC Review.md"
               }
             }
           }
@@ -148,6 +148,9 @@
   },
   "active": "00d54579d7815d47",
   "lastOpenFiles": [
+    "Images/Pasted image 20240808133112.png",
+    "Week 5/Thursday - Test Results.md",
+    "Week 5/ISTQC Review.md",
     "Images/Pasted image 20240808111722.png",
     "Images/Pasted image 20240808111420.png",
     "Images/Pasted image 20240808111404.png",
@@ -160,7 +163,6 @@
     "Week 5/Wednesday - Cucumber.md",
     "Week 5/Tuesday - Selenium.md",
     "Images/Pasted image 20240807134617.png",
-    "Images/Pasted image 20240807104809.png",
     "Week 5/Monday - TBD.md",
     "Week 4/Thursday - Test Analysis and Design.md",
     "Week 4/Tuesday - Testing Principles.md",
@@ -169,7 +171,6 @@
     "Week 4/REVIEW FOR WEEK 5.md",
     "Week 4/Monday - Finishing React Example.md",
     "Week 5/Friday - API Testing.md",
-    "Week 5/Thursday - Test Results.md",
     "Week 4/Untitled 1.md",
     "Week 9",
     "Week 8",
@@ -189,7 +190,6 @@
     "Archive/README.md",
     "Archive/SQL.md",
     "Archive/SpringBoot.md",
-    "Archive/DatatoExclude.md",
-    "7.17 Class Notes.md"
+    "Archive/DatatoExclude.md"
   ]
 }
