@@ -42,7 +42,7 @@ Whoever owns the project you're working on will have to add the other as a colla
  - Caroline's goal is for us to use Jest to test all of our frontend code
 
 For **Thursday** - 
- - **Decide which of our project we're going to test, and how we're going to test it, have user projects created, do some research for how we're integrating cucumber and selenium (*and now docker*)**
+ - **Decide which of our project we're going to test, and how we're going to test it, have user stories created, do some research for how we're integrating cucumber and selenium (*and now docker*)**
  - "Don't focus so much now on implementation (of user stories), just an outline." "Start very simple, any test case you can think of for how your project could run."
  - Caroline wants an outline for our goals for project 2
  - Discuss a basic plan for how we may plan to accomplish these goals
