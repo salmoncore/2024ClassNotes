@@ -110,3 +110,49 @@ We can also use the "name", which fun fact, is an adjective and the name of a sc
 10. To clean up (since all images we make take up space):
 	1. `docker container prune -f`
 
+*Back from morning break*
+
+Again, if we edit something, we then have to stop the Docker container, make a change, and then re-build the docker container. So far, that's not a great workflow. We'll get to that, but first, we'll start by **doing a simple push to our Docker Hub.**
+
+11. `docker tag todo-app salmonline/todo-app`
+	1. `salmonline` is my username - use whatever your Docker hub username is!
+	2. We can then use `docker push salmonline/todo-app` to push it to an repo!
+	3. You can find the image and ensure it worked [here](https://hub.docker.com/): https://hub.docker.com/
+	4. If you have trouble signing in via the Docker desktop app - go to account settings on the web -> security -> personal access token, set any name, allow read/write/delete, and follow the steps to sign in via the console. From there, docker push should work just fine.
+
+![](../Images/Pasted%20image%2020240813112126.png)
+
+12. Containers are stateless - if you make something new within them during execution, it won't persist on the next run. We manage persistent storage via **volumes.**
+	1. We can either use the `docker volume create` tool, or the command line `docker run -it -v ubuntuvolume:/mnt ubuntu /bin/bash`, where we're making a volume `ubuntuvolume` located within `/mnt` within the container.
+	2. **We can also set our working directory as a volume!** This makes development easier. The command is pretty long:
+
+```
+docker run -dp 3000:3000 skillstorm/todo-app
+```
+*oh no! it failed! it says the port is already allocated by our earlier todo app!*
+We can either stop the container, or change the port number. In our case, we just stopped the old container. Back to the **ACTUAL** string:
+
+```
+docker run -dp 3000:3000 skillstorm/todo-app -w /app -v {$pwd}:/app node:18-alpine sh -c "yarn install && yarn run dev"
+```
+*oh no, this might also fail! dunno why, here's one that fr will work:*
+
+```
+POWERSHELL:
+docker run -dp 127.0.0.1:3000:3000 `
+    -w /app --mount "type=bind,src=$pwd,target=/app" `
+    node:18-alpine `
+    sh -c "yarn install && yarn run dev"
+
+MAC/LINUX:
+docker run -dp 127.0.0.1:3000:3000 \
+    -w /app --mount type=bind,src="$(pwd)",target=/app \
+    node:18-alpine \
+    sh -c "yarn install && yarn run dev"
+```
+**MAKE SURE TO PASTE AS ONE LINE!**
+If you have issues loading `localhost:3000`, try `127.0.0.1:3000` instead. If that doesn't work, remove the 
+
+https://docs.docker.com/guides/workshop/06_bind_mounts/ 
+Here's the link for this command for other systems/consoles.
+
