@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week 6/Tuesday - Docker.md",
+                "file": "Week 6/Project 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week 6/Tuesday - Docker.md",
+                "file": "Week 6/Project 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Week 6/Tuesday - Docker.md",
+                "file": "Week 6/Project 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week 6/Tuesday - Docker.md"
+                "file": "Week 6/Project 2.md"
               }
             }
           }
@@ -149,12 +148,16 @@
   },
   "active": "00d54579d7815d47",
   "lastOpenFiles": [
+    "Week 6/Tuesday - Docker.md",
+    "Images/Pasted image 20240813134614.png",
+    "Images/Pasted image 20240813132053.png",
+    "Images/Pasted image 20240813131200.png",
+    "Images/Pasted image 20240813131155.png",
     "Images/Pasted image 20240813112126.png",
     "Images/Pasted image 20240813105409.png",
     "Images/Pasted image 20240813103105.png",
     "Images/Pasted image 20240813102201.png",
     "Week 6/Project 2.md",
-    "Week 6/Tuesday - Docker.md",
     "Week 5/Friday - API Testing.md",
     "Week 5/Wednesday - Cucumber.md",
     "Week 5/Tuesday - Selenium.md",
@@ -162,11 +165,6 @@
     "Week 5/ISTQC Review.md",
     "Images/Pasted image 20240808133112.png",
     "Images/Pasted image 20240808111722.png",
-    "Images/Pasted image 20240808111420.png",
-    "Images/Pasted image 20240808111404.png",
-    "Images/Pasted image 20240808111238.png",
-    "Images/Pasted image 20240808101413.png",
-    "Images/Pasted image 20240808101359.png",
     "Week 5/Monday - TBD.md",
     "Week 4/Thursday - Test Analysis and Design.md",
     "Week 4/Tuesday - Testing Principles.md",

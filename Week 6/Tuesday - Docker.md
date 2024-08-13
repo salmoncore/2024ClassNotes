@@ -156,3 +156,138 @@ If you have issues loading `localhost:3000`, try `127.0.0.1:3000` instead. If th
 https://docs.docker.com/guides/workshop/06_bind_mounts/ 
 Here's the link for this command for other systems/consoles.
 
+*Resuming from after lunch*
+
+To force all Docker containers to stop all at once:
+`docker stop $(docker ps -q)`
+
+To remove all images at once:
+`docker rmi $(docker images -q)`
+
+13. `docker network ls`
+
+![](../Images/Pasted%20image%2020240813131200.png)
+
+This shows us all the networks that are currently attached
+ - The bridge is the connection to the internet(?)
+
+We want to create a new network connection:
+
+14. `docker network create todo-app`
+If we do `docker network ls` again, we can see our new network. Let's go ahead and use it:
+
+`docker run -d --network todo-app --network-alias mysql -v mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=secret -e MYSQL_DATABASE=todos mysql:8.0`
+ - The network name is a reference so that we don't use IP addresses - these addresses *can* change, even in our demo project. We want to use DNS, not the IP. In this example, `mysql` is our DNS.
+
+![](../Images/Pasted%20image%2020240813132053.png)
+
+Get the container ID using `docker ps`
+
+15. `exec -it <id> mysql -u root -p`
+`dig mysql` will show you the IP address that the todo app is using.
+
+16. Here's the next script, we'll go over it in a moment:
+
+```
+docker run -dp 3000:3000 `
+  -w /app -v "$(pwd):/app" `
+  --network todo-app `
+  -e MYSQL_HOST=mysql `
+  -e MYSQL_USER=root `
+  -e MYSQL_PASSWORD=secret `
+  -e MYSQL_DB=todos `
+  node:18-alpine `
+  sh -c "yarn install && yarn run dev"
+```
+Note that this is for PowerShell-
+
+```
+docker run -dp 3000:3000 \
+  -w /app -v "$(pwd):/app" \
+  --network todo-app \
+  -e MYSQL_HOST=mysql \
+  -e MYSQL_USER=root \
+  -e MYSQL_PASSWORD=secret \
+  -e MYSQL_DB=todos \
+  node:18-alpine \
+  sh -c "yarn install && yarn run dev"
+```
+-and this is for Mac.
+
+The purpose of all of this is so we set up a separate MySQL database to hold the to-do's. They now persist between container shutdown and more!
+
+![](../Images/Pasted%20image%2020240813134614.png)
+
+Here's the cycle for shutting everything down, and then the two steps to get everything brought back up.
+
+17. Docker Compose
+It's a `.yaml` file that describes services, volumes, configuration, secrets, networking, etc.
+
+```
+services:
+
+  app:
+
+    image: node:18-alpine
+
+    ports:
+
+      - 3000:3000
+
+    working_dir: /app
+
+    volumes:
+
+      - ./:/app
+
+    networks:
+
+      - todo-app
+
+    environment:
+
+      - MYSQL_HOST=mysql
+
+      - MYSQL_USER=root
+
+      - MYSQL_PASSWORD=secret
+
+      - MYSQL_DB=todos
+
+    command: sh -c "yarn install && yarn run dev"
+
+  
+
+  mysql:
+
+    image: mysql:8.0
+
+    networks:
+
+      - todo-app
+
+    volumes:
+
+      - todo-mysql:/var/lib/mysql
+
+    environment:
+
+      - MYSQL_ROOT_PASSWORD=secret
+
+      - MYSQL_DB=todos
+
+  
+
+volumes:
+
+  todo-mysql:
+
+  
+
+networks:
+
+  todo-app:
+```
+
+***LEARN WHAT KUBERNETES STANDS FOR OR SOMETHING LOL***
+
