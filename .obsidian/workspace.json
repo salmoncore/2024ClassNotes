@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week 6/Project 2.md",
+                "file": "Week 6/Tuesday - Docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week 6/Project 2.md",
+                "file": "Week 6/Tuesday - Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Week 6/Project 2.md",
+                "file": "Week 6/Tuesday - Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week 6/Project 2.md"
+                "file": "Week 6/Tuesday - Docker.md"
               }
             }
           }
@@ -148,8 +149,12 @@
   },
   "active": "00d54579d7815d47",
   "lastOpenFiles": [
-    "Week 5/Friday - API Testing.md",
+    "Images/Pasted image 20240813105409.png",
+    "Images/Pasted image 20240813103105.png",
+    "Images/Pasted image 20240813102201.png",
     "Week 6/Project 2.md",
+    "Week 6/Tuesday - Docker.md",
+    "Week 5/Friday - API Testing.md",
     "Week 5/Wednesday - Cucumber.md",
     "Week 5/Tuesday - Selenium.md",
     "Week 5/Thursday - Test Results.md",
@@ -162,8 +167,6 @@
     "Images/Pasted image 20240808101413.png",
     "Images/Pasted image 20240808101359.png",
     "Images/Pasted image 20240808095034.png",
-    "Images/Pasted image 20240808094837.png",
-    "Images/Pasted image 20240808094001.png",
     "Week 5/Monday - TBD.md",
     "Week 4/Thursday - Test Analysis and Design.md",
     "Week 4/Tuesday - Testing Principles.md",
@@ -188,8 +191,6 @@
     "Archive/SQLFunctions.md",
     "Archive/SQLDataTypes.md",
     "Archive/README.md",
-    "Archive/SQL.md",
-    "Archive/SpringBoot.md",
-    "Archive/DatatoExclude.md"
+    "Archive/SQL.md"
   ]
 }
