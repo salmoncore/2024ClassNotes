@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week 6/Project 2.md",
+                "file": "Week 6/Tuesday - Docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week 6/Project 2.md",
+                "file": "Week 6/Tuesday - Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Week 6/Project 2.md",
+                "file": "Week 6/Tuesday - Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week 6/Project 2.md"
+                "file": "Week 6/Tuesday - Docker.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "00d54579d7815d47",
   "lastOpenFiles": [
+    "Images/Pasted image 20240813140509.png",
+    "Week 6/Project 2.md",
     "Week 6/Tuesday - Docker.md",
     "Images/Pasted image 20240813134614.png",
     "Images/Pasted image 20240813132053.png",
@@ -157,7 +159,6 @@
     "Images/Pasted image 20240813105409.png",
     "Images/Pasted image 20240813103105.png",
     "Images/Pasted image 20240813102201.png",
-    "Week 6/Project 2.md",
     "Week 5/Friday - API Testing.md",
     "Week 5/Wednesday - Cucumber.md",
     "Week 5/Tuesday - Selenium.md",

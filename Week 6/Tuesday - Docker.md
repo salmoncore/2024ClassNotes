@@ -223,6 +223,10 @@ Here's the cycle for shutting everything down, and then the two steps to get eve
 17. Docker Compose
 It's a `.yaml` file that describes services, volumes, configuration, secrets, networking, etc.
 
+Make the file here:
+
+![](../Images/Pasted%20image%2020240813140509.png)
+
 ```
 services:
 
@@ -288,6 +292,10 @@ networks:
 
   todo-app:
 ```
+
+18. `docker compose up -d`
+
+Runs the Docker setup - and we're done!
 
 ***LEARN WHAT KUBERNETES STANDS FOR OR SOMETHING LOL***
 
