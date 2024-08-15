@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "00d54579d7815d47",
+            "id": "0ec61f1a0c8713b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week 6/Wednesday - Kubernetes.md",
+                "file": "Week 6/Thursday - AWS + Networking.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week 6/Wednesday - Kubernetes.md",
+                "file": "Week 6/Thursday - AWS + Networking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Week 6/Wednesday - Kubernetes.md",
+                "file": "Week 6/Thursday - AWS + Networking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week 6/Wednesday - Kubernetes.md"
+                "file": "Week 6/Thursday - AWS + Networking.md"
               }
             }
           }
@@ -146,22 +146,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "00d54579d7815d47",
+  "active": "0ec61f1a0c8713b9",
   "lastOpenFiles": [
-    "Images/Pasted image 20240814111134.png",
-    "Images/Pasted image 20240814110227.png",
-    "Images/Pasted image 20240814105420.png",
-    "Images/Pasted image 20240814105028.png",
-    "Images/Pasted image 20240814102543.png",
-    "Images/Pasted image 20240814095935.png",
-    "Images/Pasted image 20240814095223.png",
-    "Images/Pasted image 20240814095124.png",
-    "Images/Pasted image 20240814094335.png",
-    "Images/Pasted image 20240814094232.png",
-    "Images/Pasted image 20240814092623.png",
-    "Week 6/Tuesday - Docker.md",
+    "Images/Pasted image 20240815115323.png",
+    "Images/Pasted image 20240815115152.png",
+    "Images/Pasted image 20240815113925.png",
+    "Images/Pasted image 20240815113509.png",
+    "Images/Pasted image 20240815113046.png",
+    "Images/Pasted image 20240815112620.png",
+    "Images/Pasted image 20240815105919.png",
+    "Images/Pasted image 20240815105739.png",
+    "Images/Pasted image 20240815105649.png",
+    "Images/Pasted image 20240815103338.png",
     "Week 6/Wednesday - Kubernetes.md",
-    "Week 6/Project 2.md",
+    "Week 6/Thursday - AWS + Networking.md",
+    "Week 6/Wednesday - Project 2.md",
+    "Week 6/Tuesday - Project 2.md",
+    "Images/Pasted image 20240814111134.png",
+    "Week 6/Tuesday - Docker.md",
     "Week 4/Wednesday - Test Designs.md",
     "Week 4/Tuesday - Testing Principles.md",
     "Week 4/Thursday - Test Analysis and Design.md",
@@ -188,8 +190,6 @@
     "Archive/More JPA.md",
     "Archive/Spring Data JPA.md",
     "Archive/PostGresInstallation.md",
-    "Archive/SQLFunctions.md",
-    "Archive/SQLDataTypes.md",
-    "Archive/README.md"
+    "Archive/SQLFunctions.md"
   ]
 }

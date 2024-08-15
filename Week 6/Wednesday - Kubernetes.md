@@ -22,6 +22,8 @@ It was a Google project that they open-sourced, and put on AWS.
 	 - A process running on the node - manages control plane services.
 	 - Sends communications from itself to the **engine**
  - **Container Runtime Engine**
+	 - ContainerD
+
 **CoreDNS** - As containers/pods come up and go down, their IP addresses change a lot.
  - We use the DNS names instead for this reason.
 
