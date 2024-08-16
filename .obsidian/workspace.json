@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week 6/Thursday - AWS + Networking.md",
+                "file": "Week 6/Friday - RDS + Elastic Beanstalk.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week 6/Thursday - AWS + Networking.md",
+                "file": "Week 6/Friday - RDS + Elastic Beanstalk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Week 6/Thursday - AWS + Networking.md",
+                "file": "Week 6/Friday - RDS + Elastic Beanstalk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week 6/Thursday - AWS + Networking.md"
+                "file": "Week 6/Friday - RDS + Elastic Beanstalk.md"
               }
             }
           }
@@ -148,6 +148,16 @@
   },
   "active": "0ec61f1a0c8713b9",
   "lastOpenFiles": [
+    "Images/Pasted image 20240816102205.png",
+    "Week 6/Thursday - AWS + Networking.md",
+    "Week 6/Wednesday - Kubernetes.md",
+    "Week 6/Wednesday - Project 2.md",
+    "Week 6/Tuesday - Docker.md",
+    "Week 6/Friday - RDS + Elastic Beanstalk.md",
+    "Week 5/Thursday - Test Results.md",
+    "Week 5/Wednesday - Cucumber.md",
+    "Week 5/Tuesday - Selenium.md",
+    "Week 6/Tuesday - Project 2.md",
     "Images/Pasted image 20240815115323.png",
     "Images/Pasted image 20240815115152.png",
     "Images/Pasted image 20240815113925.png",
@@ -158,21 +168,12 @@
     "Images/Pasted image 20240815105739.png",
     "Images/Pasted image 20240815105649.png",
     "Images/Pasted image 20240815103338.png",
-    "Week 6/Wednesday - Kubernetes.md",
-    "Week 6/Thursday - AWS + Networking.md",
-    "Week 6/Wednesday - Project 2.md",
-    "Week 6/Tuesday - Project 2.md",
-    "Images/Pasted image 20240814111134.png",
-    "Week 6/Tuesday - Docker.md",
     "Week 4/Wednesday - Test Designs.md",
     "Week 4/Tuesday - Testing Principles.md",
     "Week 4/Thursday - Test Analysis and Design.md",
     "Week 5/ISTQC Review.md",
     "Week 4/Friday - Manual Testing.md",
     "Week 5/Friday - API Testing.md",
-    "Week 5/Wednesday - Cucumber.md",
-    "Week 5/Tuesday - Selenium.md",
-    "Week 5/Thursday - Test Results.md",
     "Week 5/Monday - TBD.md",
     "Week 4/REVIEW FOR WEEK 5.md",
     "Week 4/Monday - Finishing React Example.md",
@@ -189,7 +190,6 @@
     "Archive/React Concepts.md",
     "Archive/More JPA.md",
     "Archive/Spring Data JPA.md",
-    "Archive/PostGresInstallation.md",
-    "Archive/SQLFunctions.md"
+    "Archive/PostGresInstallation.md"
   ]
 }
