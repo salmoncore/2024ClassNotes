@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week 7/Wednesday - JaCoCo.md",
+                "file": "Week 7/Thursday - Mockito & SonarQube.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week 7/Wednesday - JaCoCo.md",
+                "file": "Week 7/Thursday - Mockito & SonarQube.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Week 7/Wednesday - JaCoCo.md",
+                "file": "Week 7/Thursday - Mockito & SonarQube.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week 7/Wednesday - JaCoCo.md"
+                "file": "Week 7/Thursday - Mockito & SonarQube.md"
               }
             }
           }
@@ -148,19 +148,20 @@
   },
   "active": "0ec61f1a0c8713b9",
   "lastOpenFiles": [
-    "Images/Pasted image 20240821112538.png",
-    "Images/Pasted image 20240821112005.png",
-    "Images/Pasted image 20240821111446.png",
-    "Images/Pasted image 20240821110858.png",
-    "Images/Pasted image 20240821110601.png",
-    "Week 7/Tuesday - CI&CD with Jenkins.md",
+    "Images/Pasted image 20240822164519.png",
+    "Images/Pasted image 20240822162507.png",
+    "Images/Pasted image 20240822162327.png",
+    "Images/Pasted image 20240822161907.png",
+    "Images/Pasted image 20240822161839.png",
+    "Images/Pasted image 20240822161752.png",
+    "Images/Pasted image 20240822161725.png",
+    "Images/Pasted image 20240822161133.png",
+    "Images/Pasted image 20240822161101.png",
+    "Images/Pasted image 20240822160730.png",
+    "Images/Pasted image 20240822160712.png",
     "Week 7/Wednesday - JaCoCo.md",
-    "Images/Pasted image 20240820114341.png",
-    "Images/Pasted image 20240820113821.png",
-    "Images/Pasted image 20240820113039.png",
-    "Images/Pasted image 20240820112817.png",
-    "Images/Pasted image 20240820111321.png",
-    "Images/Pasted image 20240820111303.png",
+    "Week 7/Thursday - Mockito & SonarQube.md",
+    "Week 7/Tuesday - CI&CD with Jenkins.md",
     "Week 6/Friday - RDS + Elastic Beanstalk.md",
     "Week 6/Tuesday - Docker.md",
     "Week 6/Wednesday - Kubernetes.md",
@@ -189,7 +190,6 @@
     "Archive/Spring MVC.md",
     "Archive/More React Notes.md",
     "Archive",
-    "Archive/React Concepts.md",
-    "Archive/More JPA.md"
+    "Archive/React Concepts.md"
   ]
 }
