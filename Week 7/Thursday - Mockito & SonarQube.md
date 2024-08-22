@@ -86,3 +86,7 @@ Head to `localhost:9000/`, and you should see this:
 
 ![](../Images/Pasted%20image%2020240822164519.png)
 
+*Caroline is having some issues, so we're stopping here for today.*
+
+https://docs.sonarsource.com/sonarqube/10.6/analyzing-source-code/scanners/sonarscanner-for-maven/
+
