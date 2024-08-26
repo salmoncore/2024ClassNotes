@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week 7/Wednesday - JaCoCo.md",
+                "file": "Week 7/Thursday - Mockito & SonarQube.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week 7/Wednesday - JaCoCo.md",
+                "file": "Week 7/Thursday - Mockito & SonarQube.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Week 7/Wednesday - JaCoCo.md",
+                "file": "Week 7/Thursday - Mockito & SonarQube.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week 7/Wednesday - JaCoCo.md"
+                "file": "Week 7/Thursday - Mockito & SonarQube.md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "0ec61f1a0c8713b9",
   "lastOpenFiles": [
-    "Week 7/Thursday - Mockito & SonarQube.md",
     "Week 7/Wednesday - JaCoCo.md",
-    "Week 7/Tuesday - CI&CD with Jenkins.md",
     "Week 7/Friday - More SonarQube.md",
+    "Week 7/Thursday - Mockito & SonarQube.md",
+    "Week 7/Tuesday - CI&CD with Jenkins.md",
     "Images/Pasted image 20240823093624.png",
     "Images/Pasted image 20240822164519.png",
     "Images/Pasted image 20240822162507.png",
