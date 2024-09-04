@@ -198,3 +198,6 @@ We have:
  - Eureka service
  - Gateway
 
+We're having some issues
+
+Note that when you start it up, start the server, then the gateway, then the other services.
