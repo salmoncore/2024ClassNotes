@@ -105,7 +105,6 @@ Head here
 ![](../Images/Pasted%20image%2020240904111251.png)
 
 Add the annotation `@EnableEurekaServer`. This makes sure the Eureka server is enabled on the application. Additionally, add `import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;` to the imports.
-
 Under `resources`, rename `application.properties` to `application.yml`
 
 Add the following:
@@ -201,3 +200,58 @@ We have:
 We're having some issues
 
 Note that when you start it up, start the server, then the gateway, then the other services.
+
+---
+
+*Notes for Thursday*
+
+# Message Queues
+ - Producer/consumer or publisher/subscriber model
+ - Can be an alternative to HTTP
+ - Advantages - more decoupling
+**RabbitMQ is an example of this type of service.**
+
+## HTTP Requests
+ - Synchronous
+	 - Will wait for a response 
+ - Point-to-point
+	 - 1:1 relationship between devices
+
+## MQ
+ - Asynchronous 
+	 - Sends messages and doesn't need a response
+ - One-to-many
+	 - One message can be sent to many queues
+
+## Rabbit MQ
+ - Built on AMQP (Advanced Message Queuing Protocol) in SpringBoot
+ - Writes to an exchange or read from an exchange
+
+
+*RabbitMQ is going to utilize Exchanges and Queues*
+A publisher will send messages to our **Exchange** - there are several types that can be sent to.
+### Exchanges
+ - **Direct Exchange**
+	 - Goes directly to the **queue** - ==point-to-point==
+	 - Goes from the **queue** to the ***subscribers***
+ - **Topic Exchange**
+	 - Goes to some pattern of **queues** - a one-to-many relationship
+		 - "==Pattern matching==" being the way for it to determine what queues to select
+ - **Fanout Exchange**
+	 - Goes to queues as based on name - one-to-many as well
+		 - "==Based on name==" meaning it just gets sent to some named queues
+
+![](../Images/Pasted%20image%2020240905101046.png)
+
+---
+
+*Class Example*
+
+**Make a new project with spring initalizr**
+ - Name it `demo-publisher`
+ - For dependencies, add:
+	 - Spring Web
+	 - Spring for RabbitMQ
+	 - Eureka Discovery Client
+
+Head to Spring gateway, go to `application.yml`, uncomment ... and then start the application services, starting with the server, then the gateway and all the other services.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week 9/Wednesday - Microservices.md",
+                "file": "Week 9/Microservices.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5069465637207
+    "width": 238.5069465637207,
+    "collapsed": true
   },
   "right": {
     "id": "b2bb30b5f639efbb",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week 9/Wednesday - Microservices.md",
+                "file": "Week 9/Microservices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Week 9/Wednesday - Microservices.md",
+                "file": "Week 9/Microservices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week 9/Wednesday - Microservices.md"
+                "file": "Week 9/Microservices.md"
               }
             }
           }
@@ -148,6 +149,7 @@
   },
   "active": "0ec61f1a0c8713b9",
   "lastOpenFiles": [
+    "Images/Pasted image 20240905101046.png",
     "Images/Pasted image 20240904114629.png",
     "Images/Pasted image 20240904114059.png",
     "Images/Pasted image 20240904112537.png",
@@ -158,9 +160,8 @@
     "Images/Pasted image 20240904110857.png",
     "Images/Pasted image 20240904105103.png",
     "Images/Pasted image 20240904104415.png",
-    "Images/Pasted image 20240904104328.png",
     "Week 8/Wednesday - Burp Suite.md",
-    "Week 9/Wednesday - Microservices.md",
+    "Week 9/Microservices.md",
     "Week 8/Thursday - JMeter.md",
     "Week 7/Wednesday - JaCoCo.md",
     "Week 8/SonarCloud.md",
