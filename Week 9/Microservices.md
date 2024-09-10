@@ -207,6 +207,7 @@ Note that when you start it up, start the server, then the gateway, then the oth
 
 # Message Queues
  - Producer/consumer or publisher/subscriber model
+	 - Publisher sends data to the exchange (RabbitMQ), where the subscriber is reading from
  - Can be an alternative to HTTP
  - Advantages - more decoupling
 **RabbitMQ is an example of this type of service.**
@@ -255,3 +256,9 @@ A publisher will send messages to our **Exchange** - there are several types tha
 	 - Eureka Discovery Client
 
 Head to Spring gateway, go to `application.yml`, uncomment ... and then start the application services, starting with the server, then the gateway and all the other services.
+
+---
+
+In-class Q's:
+ - What class is used to listen to messages?
+	 - RabbitListener - used to listen/read messages

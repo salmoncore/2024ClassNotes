@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week 9/Microservices.md",
+                "file": "Week 10/Project 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5069465637207,
-    "collapsed": true
+    "width": 238.5069465637207
   },
   "right": {
     "id": "b2bb30b5f639efbb",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week 9/Microservices.md",
+                "file": "Week 10/Project 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Week 9/Microservices.md",
+                "file": "Week 10/Project 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week 9/Microservices.md"
+                "file": "Week 10/Project 3.md"
               }
             }
           }
@@ -149,6 +148,13 @@
   },
   "active": "0ec61f1a0c8713b9",
   "lastOpenFiles": [
+    "Week 9/Microservices.md",
+    "Week 10/Project 3.md",
+    "Week 10",
+    "Week 8/Thursday - JMeter.md",
+    "Week 8/Wednesday - Burp Suite.md",
+    "Week 7/Tuesday - CI&CD with Jenkins.md",
+    "Week 4/REVIEW FOR WEEK 5.md",
     "Images/Pasted image 20240905101046.png",
     "Images/Pasted image 20240904114629.png",
     "Images/Pasted image 20240904114059.png",
@@ -159,13 +165,8 @@
     "Images/Pasted image 20240904110935.png",
     "Images/Pasted image 20240904110857.png",
     "Images/Pasted image 20240904105103.png",
-    "Images/Pasted image 20240904104415.png",
-    "Week 8/Wednesday - Burp Suite.md",
-    "Week 9/Microservices.md",
-    "Week 8/Thursday - JMeter.md",
     "Week 7/Wednesday - JaCoCo.md",
     "Week 8/SonarCloud.md",
-    "Week 7/Tuesday - CI&CD with Jenkins.md",
     "Week 7/Thursday - Mockito & SonarQube.md",
     "Week 7/Friday - More SonarQube.md",
     "Week 6/Friday - RDS + Elastic Beanstalk.md",
@@ -184,7 +185,6 @@
     "Week 4/Friday - Manual Testing.md",
     "Week 5/Friday - API Testing.md",
     "Week 5/Monday - TBD.md",
-    "Week 4/REVIEW FOR WEEK 5.md",
     "Week 9",
     "Week 8",
     "Week 7",
